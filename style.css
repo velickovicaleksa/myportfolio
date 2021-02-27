@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("cover.jpg") no-repeat center;
+    background: url("images/cover.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -266,6 +266,7 @@ section .title::after{
 .teams .title::after{
     background: #111;
     content: "what i provide";
+    color:#69a1fa;
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -419,7 +420,7 @@ section .title::after{
     text-align: center;
     margin-top: 20px;
 }
-.owl-dot{
+/*.owl-dot{
     height: 13px;
     width: 13px;
     margin: 0 5px;
@@ -435,7 +436,7 @@ section .title::after{
 .owl-dot.active,
 .owl-dot:hover{
     background: #00203FFF!important;
-}
+}*/
 
 /* contact section styling */
 .contact .title::after{
@@ -542,7 +543,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: #00203FFF;
+    color: #69a1fa;
     text-decoration: none;
 }
 footer span a:hover{
